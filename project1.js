@@ -31,3 +31,23 @@ function loco() {
 }
 loco();
 
+var box = "";
+
+document.querySelector("#page2>#block>h1").textContent.split("").forEach(function (value) {
+    box += `<span>${value}</span>`
+
+    document.querySelector("#page2>#block>h1").innerHTML = box;
+})
+
+
+gsap.to("#page2>#block>h1>span", {
+    scrollTrigger: {
+        trigger: `#page2>#block>h1>span`,
+        start: `top bottom`,
+        end: `bottom top`,
+        scroller: `#main`,
+        scrub: 0.5,
+    },
+    stagger: .2,
+    color: `#fff`
+})
