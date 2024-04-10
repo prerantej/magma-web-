@@ -51,3 +51,22 @@ gsap.to("#page2>#block>h1>span", {
     stagger: .2,
     color: `#fff`
 })
+
+var clutter = "";
+
+document.querySelector("#page4>#block>h1").textContent.split("").forEach(function (dets) {
+    clutter += `<span>${dets}</span>`
+
+    document.querySelector("#page4>#block>h1").innerHTML = clutter;
+})
+gsap.to("#page4>#block>h1>span", {
+    scrollTrigger: {
+        trigger: `#page4>#block>h1>span`,
+        start: `top bottom`,
+        end: `bottom top`,
+        scroller: `#main`,
+        scrub: .5,
+    },
+    stagger: .2,
+    color: `#fff`
+})
