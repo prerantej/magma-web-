@@ -1,1 +1,1 @@
-this is highly animated website made using htmlcss javascript
+this is a highly animated website made using htmlcss javascript
