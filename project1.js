@@ -70,3 +70,23 @@ gsap.to("#page4>#block>h1>span", {
     stagger: .2,
     color: `#fff`
 })
+
+var clutter = "";
+
+document.querySelector("#page6>#block>h1").textContent.split("").forEach(function (dets) {
+    clutter += `<span>${dets}</span>`
+
+    document.querySelector("#page6>#block>h1").innerHTML = clutter;
+})
+
+gsap.to("#page6>#block>h1>span", {
+    scrollTrigger: {
+        trigger: `#page6>#block>h1>span`,
+        start: `top bottom`,
+        end: `bottom top`,
+        scroller: `#main`,
+        scrub: .5,
+    },
+    stagger: .2,
+    color: `#fff`
+})
