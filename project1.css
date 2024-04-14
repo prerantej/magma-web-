@@ -347,3 +347,29 @@ body {
     border-radius: 5px;
 
 }
+#page10 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #0C41C9;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#page10>#p10r {
+    height: 100%;
+    width: 60%;
+    position: relative;
+    top: 10%;
+}
+
+#page10>#p10r>.headings {
+    color: white;
+    padding: 20px 0px;
+}
+
+#page10>#p10r>.texts {
+    color: white;
+    padding-bottom: 10px;
+    line-height: 1.8;
+}
