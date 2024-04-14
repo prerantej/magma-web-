@@ -373,3 +373,16 @@ body {
     padding-bottom: 10px;
     line-height: 1.8;
 }
+#page11 {
+    position: relative;
+    height: 35vh;
+    width: 100vw;
+    background-color: white;
+}
+
+#page11>h1 {
+    position: absolute;
+    top: 80%;
+    font-size: 70px;
+    padding-left: 10vw;
+}
