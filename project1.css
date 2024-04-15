@@ -431,3 +431,13 @@ body {
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
 }
+#page12 #hbox .cbox .img img:hover{
+    transform: scale(1.03);
+}
+#page12 #hbox .cbox .des h2{
+    padding-bottom: 3vh;
+}
+.hbox::-webkit-scrollbar{
+    width: 0;
+    
+    }
