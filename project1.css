@@ -492,3 +492,37 @@ body {
     border-radius: 20px;
     object-fit: fill;
     transition: transform 0.3s ease-in-out;}
+
+    #page14>.container>.hbox>#img1:hover{
+        transform: scale(1.1);
+
+    }
+    #page14>.container>.hbox>div{
+        position: relative;
+        left:40px
+
+    }
+    #page14>.container>.hbox>#img2{
+        height: 30vh;
+        width: 39vw;
+        
+        border-radius: 20px;
+        object-fit: fill;
+        transition: transform 0.3s ease-in-out;
+    }
+    #page14>.container>.hbox>#img2:hover{
+        transform: scale(1.1);
+
+    }
+    #page14>.container>.hbox>#img3{
+        height: 30vh;
+        width: 35vw;
+        
+        border-radius: 20px;
+        object-fit: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+    #page14>.container>.hbox>#img3:hover{
+        transform: scale(1.1);
+
+    }
