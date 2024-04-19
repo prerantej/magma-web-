@@ -455,3 +455,40 @@ body {
     font-size: 70px;
     padding-left: 10vw;
 }
+
+#page14 {
+    position: relative;
+    top: 12vh;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+#page14>.container {
+    position: relative;
+    left: 10vw;
+
+    height: 100vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#page14>.container>.hbox{
+    height: 32vh;
+    width: 85vw;
+    padding-bottom: 2vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#page14>.container>.hbox>#img1{
+    height: 30vh;
+    width: 42.5vw;
+    
+    border-radius: 20px;
+    object-fit: fill;
+    transition: transform 0.3s ease-in-out;}
