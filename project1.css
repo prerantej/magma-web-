@@ -534,3 +534,44 @@ body {
         width: 100vw;
         background-color: white;
     }
+    #page16{
+        position: relative; 
+        height: 100vh;
+        width: 100vw;
+        background-color: #0A1E6D;
+    }
+    #page16>.para1{
+        position: absolute;
+        top: 25vh;
+        left: 50vw;
+        color: white;
+    }
+        
+    @keyframes scroll {
+    before{
+        transform: translateX(0);
+
+    }
+    after{transform: translateX(100px);
+    }        
+    }
+    #page16>#logo{
+        height: 100px;
+        overflow: hidden;
+        position: absolute;
+        top: 70vh;
+        animation: scroll 30s linear infinite
+
+    }
+    #page16>#logo>#logoslider{
+        display: flex;
+        width: auto;
+        
+        
+    }
+
+    #page16>#logo>#logoslider>img{
+        height: 70px;
+        padding: 0 50px;
+    
+    }
