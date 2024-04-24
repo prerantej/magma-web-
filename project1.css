@@ -575,3 +575,63 @@ body {
         padding: 0 50px;
     
     }
+    #page17{
+        position: relative;
+        height: 130vh;
+        width: 100vw;
+        background-color: #0C0C12;
+
+    }
+    #page17>#block{
+        position: relative;
+        top: 30vh;
+        left: 10vw;
+        height: 40vh;
+        width: 50vw;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+    #page17>#block h1{
+        font-size: 100px;
+        padding-bottom: 5vh;;
+    }
+
+    #page17>#block button{
+    border: 0.2px solid transparent;
+    border-radius: 50px;
+    height: 40px;
+    width: 15vw;
+    padding: 10px 25px;
+    background-color: #0E43CC;
+    color: white;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    #page17>#container{
+        height: 60vh;
+        position:relative;
+        top: 35vh;
+        
+    }
+    #page17>#container>.hbox{
+        height: 20vh;
+        border-top: 0.5px solid white;
+        border-bottom: 0.5px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        padding: 0 10vw;
+        transition: transform 0.3s ease-in-out;
+        background-color: #0C0C12;
+    }
+    #page17>#container>.hbox:hover{
+        transform: scale(1.02);
+        background-color: #0A1E6D;
+    }
+    #page17>#container>.hbox>i{
+        height: 50px;width: 50px;
+    }
