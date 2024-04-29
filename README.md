@@ -28,7 +28,7 @@ I leveraged libraries such as GSAP for advanced animations and Locomotive for sm
 - **Web3 Platform**: Magma serves as a comprehensive Web3 platform for real estate stakeholders, facilitating interactions between physical and digital assets.
 
 ## Getting Started
-To explore my first website project, simply open the `index.html` file in your web browser. Alternatively, you can visit the live demo hosted at [example.com](https://www.example.com).
+To explore my first website project, simply open the `index.html` file in your web browser. Alternatively, you can visit the live demo hosted at [magma.com](https://prerantej.github.io/magma-web-/).
 
 ## Feedback and Contributions
 I welcome any feedback or contributions to improve my first website project. Feel free to submit pull requests or reach out to me at [prerantejkvr@gmail.com](mailto:prerantejkvr@email.com) with any suggestions or ideas.
